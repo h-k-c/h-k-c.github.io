@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F12%2F22%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[我与hexo的过往]]></title>
+    <url>%2F2018%2F12%2F22%2F%E6%88%91%E4%B8%8Ehexo%E7%9A%84%E8%BF%87%E5%BE%80%2F</url>
+    <content type="text"><![CDATA[&lt;一&gt; 2018.12.22 一年前闲来无于是就准备写写博客与随笔，但是写博客的软件也是比较多的，找来找去最后还是准备使用git+hexo这个搭配，在配上自己的域名也会显得非常个性化。然后出现的事故就是又一次电脑重装系统的时候一切的文件都没了，当时感觉很无奈，但是现在来看也不是大问题。现在想想也是后悔莫及。 想想之前在博客里写过一套数据结构的基本解析，虽然不是很深奥，但是也是能基本的接触到皮毛再加上自己的理解。 接下里的打算就是准备做一套剑指offer的解析。]]></content>
+      <tags>
+        <tag>闲笔头</tag>
+      </tags>
   </entry>
 </search>
