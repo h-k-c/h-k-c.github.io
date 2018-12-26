@@ -84,18 +84,18 @@
 
 
 
-<meta name="description" content="题目描述在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。 简单的思路 最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字递增，因此从">
+<meta name="description" content="题目描述   在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。 简单的思路    最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字">
 <meta name="keywords" content="剑指offer">
 <meta property="og:type" content="article">
 <meta property="og:title" content="01：二维数组中的查找（java）">
 <meta property="og:url" content="http://hkcblog.com/2018/12/26/01：二维数组中的查找（java）/index.html">
 <meta property="og:site_name" content="OpenOrange">
-<meta property="og:description" content="题目描述在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。 简单的思路 最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字递增，因此从">
+<meta property="og:description" content="题目描述   在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。 简单的思路    最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-26T13:38:01.449Z">
+<meta property="og:updated_time" content="2018-12-26T13:42:25.333Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="01：二维数组中的查找（java）">
-<meta name="twitter:description" content="题目描述在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。 简单的思路 最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字递增，因此从">
+<meta name="twitter:description" content="题目描述   在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。 简单的思路    最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字">
 
 
 
@@ -310,25 +310,16 @@
     
     
     
-	<div>
-	  
-		<div>
-    
-        <div style="text-align:center;color: #636363;font-size:14px;letter-spacing: 10px">本文结束啦<i class="fa fa-bell"></i>感谢您的阅读</div>
-    
-</div>
-	  
-	</div>
     <div class="post-body" itemprop="articleBody">
 
       
       
 
       
-        <p><strong>题目描述</strong><br>在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。</p>
+        <p><strong>题目描述</strong><br>   在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。</p>
 <p><strong>简单的思路</strong></p>
-<p>最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字递增，因此从左下角开始查找的时候，当要查找的数字大时，向右移动，要查找的数字比左下角的小的时候，向上移动。</p>
-<p><strong>代码</strong><br>    public class Solution {<br>        public boolean Find(int target, int [][] array) {<br>                if(array.length==0){<br>                    return false;<br>                }<br>                   int len=array.length-1,i=0;<br>                   while(i&lt;array[0].length&amp;&amp;len&gt;=0){<br>                       if(array[len][i]&gt;target){<br>                           len–;<br>                       }<br>                       else if(array[len][i]&lt;target){<br>                           i++;<br>                       }<br>                       else{<br>                           return true;<br>                       }<br>                   }<br>                   return false;<br>            }<br>    }    </p>
+<p>   最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字递增，因此从左下角开始查找的时候，当要查找的数字大时，向右移动，要查找的数字比左下角的小的时候，向上移动。</p>
+<p><strong>代码</strong><br>    public class Solution {<br>    public boolean Find(int target, int [][] array) {<br>    if(array.length==0){<br>    return false;<br>    }<br>                   int len=array.length-1,i=0;<br>                   while(i&lt;array[0].length&amp;&amp;len&gt;=0){<br>                       if(array[len][i]&gt;target){<br>                           len–;<br>                       }<br>                       else if(array[len][i]&lt;target){<br>                           i++;<br>                       }<br>                       else{<br>                           return true;<br>                       }<br>                   }<br>                   return false;<br>            }<br>    }    </p>
 <p><strong>注</strong>：代码只有关键函数；</p>
 
       
@@ -337,7 +328,15 @@
 			
 		  
 	</div>
-
+		<div>
+		  
+			<div>
+    
+        <div style="text-align:center;color: #636363;font-size:14px;letter-spacing: 10px">本文结束啦<i class="fa fa-bell"></i>感谢您的阅读</div>
+    
+</div>
+		  
+		</div>
     </div>
     
     
