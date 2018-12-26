@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>OpenOrange</title>
+  
+  <subtitle>小成故事多</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://hkcblog.com/"/>
+  <updated>2018-12-22T07:16:59.898Z</updated>
+  <id>http://hkcblog.com/</id>
+  
+  <author>
+    <name>hkc</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我与hexo的过往</title>
+    <link href="http://hkcblog.com/2018/12/22/%E6%88%91%E4%B8%8Ehexo%E7%9A%84%E8%BF%87%E5%BE%80/"/>
+    <id>http://hkcblog.com/2018/12/22/我与hexo的过往/</id>
+    <published>2018-12-22T07:02:30.000Z</published>
+    <updated>2018-12-22T07:16:59.898Z</updated>
+    
+    <content type="html"><![CDATA[<p> <strong>&lt;一&gt;</strong> <strong>2018.12.22</strong><br>    一年前闲来无于是就准备写写博客与随笔，但是写博客的软件也是比较多的，找来找去最后还是准备使用git+hexo这个搭配，在配上自己的域名也会显得非常个性化。<br>然后出现的事故就是又一次电脑重装系统的时候一切的文件都没了，当时感觉很无奈，但是现在来看也不是大问题。现在想想也是后悔莫及。<br>    想想之前在博客里写过一套数据结构的基本解析，虽然不是很深奥，但是也是能基本的接触到皮毛再加上自己的理解。<br>    接下里的打算就是准备做一套剑指offer的解析。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; &lt;strong&gt;&amp;lt;一&amp;gt;&lt;/strong&gt; &lt;strong&gt;2018.12.22&lt;/strong&gt;&lt;br&gt;    一年前闲来无于是就准备写写博客与随笔，但是写博客的软件也是比较多的，找来找去最后还是准备使用git+hexo这个搭配，在配上自己的域名也会显得非常个
+      
+    
+    </summary>
+    
+    
+      <category term="闲笔头" scheme="http://hkcblog.com/tags/%E9%97%B2%E7%AC%94%E5%A4%B4/"/>
+    
+  </entry>
+  
+</feed>
