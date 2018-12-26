@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[01：二维数组中的查找（java）]]></title>
+    <url>%2F2018%2F12%2F26%2F01%EF%BC%9A%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%EF%BC%88java%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[题目描述在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。 简单的思路 最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字递增，因此从左下角开始查找的时候，当要查找的数字大时，向右移动，要查找的数字比左下角的小的时候，向上移动。 代码 public class Solution { public boolean Find(int target, int [][] array) { if(array.length==0){ return false; } int len=array.length-1,i=0; while(i&lt;array[0].length&amp;&amp;len&gt;=0){ if(array[len][i]&gt;target){ len–; } else if(array[len][i]&lt;target){ i++; } else{ return true; } } return false; } } 注：代码只有关键函数；]]></content>
+      <tags>
+        <tag>剑指offer</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[我与hexo的过往]]></title>
     <url>%2F2018%2F12%2F22%2F%E6%88%91%E4%B8%8Ehexo%E7%9A%84%E8%BF%87%E5%BE%80%2F</url>
     <content type="text"><![CDATA[&lt;一&gt; 2018.12.22 一年前闲来无于是就准备写写博客与随笔，但是写博客的软件也是比较多的，找来找去最后还是准备使用git+hexo这个搭配，在配上自己的域名也会显得非常个性化。然后出现的事故就是又一次电脑重装系统的时候一切的文件都没了，当时感觉很无奈，但是现在来看也不是大问题。现在想想也是后悔莫及。 想想之前在博客里写过一套数据结构的基本解析，虽然不是很深奥，但是也是能基本的接触到皮毛再加上自己的理解。 接下里的打算就是准备做一套剑指offer的解析。]]></content>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hkcblog.com/"/>
-  <updated>2018-12-22T07:16:59.898Z</updated>
+  <updated>2018-12-26T13:38:01.449Z</updated>
   <id>http://hkcblog.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>01：二维数组中的查找（java）</title>
+    <link href="http://hkcblog.com/2018/12/26/01%EF%BC%9A%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%EF%BC%88java%EF%BC%89/"/>
+    <id>http://hkcblog.com/2018/12/26/01：二维数组中的查找（java）/</id>
+    <published>2018-12-26T13:18:13.000Z</published>
+    <updated>2018-12-26T13:38:01.449Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>题目描述</strong><br>在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。</p><p><strong>简单的思路</strong></p><p>最简单的方法就是遍历所有的元素，但是这种方法的效率最低。所以在原来的基础上进行了更新操作。通过题目可以得知，二维数组基本上是有顺序的，从左下角来看，向上的数字递减，向右的数字递增，因此从左下角开始查找的时候，当要查找的数字大时，向右移动，要查找的数字比左下角的小的时候，向上移动。</p><p><strong>代码</strong><br>    public class Solution {<br>        public boolean Find(int target, int [][] array) {<br>                if(array.length==0){<br>                    return false;<br>                }<br>                   int len=array.length-1,i=0;<br>                   while(i&lt;array[0].length&amp;&amp;len&gt;=0){<br>                       if(array[len][i]&gt;target){<br>                           len–;<br>                       }<br>                       else if(array[len][i]&lt;target){<br>                           i++;<br>                       }<br>                       else{<br>                           return true;<br>                       }<br>                   }<br>                   return false;<br>            }<br>    }    </p><p><strong>注</strong>：代码只有关键函数；</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;题目描述&lt;/strong&gt;&lt;br&gt;在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="剑指offer" scheme="http://hkcblog.com/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+  </entry>
   
   <entry>
     <title>我与hexo的过往</title>
