@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[阜阳市实验中学]]></title>
+    <url>%2F2019%2F02%2F21%2F%E9%98%9C%E9%98%B3%E5%B8%82%E5%AE%9E%E9%AA%8C%E4%B8%AD%E5%AD%A6%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[03：从尾到头打印链表（java）]]></title>
     <url>%2F2019%2F02%2F06%2F%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8%2F</url>
     <content type="text"><![CDATA[题目简介 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。 思路使用递归先到链表的尾部，然后返回 代码1234567891011import java.util.ArrayList;public class Solution &#123; ArrayList&lt;Integer&gt; arrayList=new ArrayList&lt;Integer&gt;(); public ArrayList&lt;Integer&gt; printListFromTailToHead(ListNode listNode) &#123; if(listNode!=null)&#123; this.printListFromTailToHead(listNode.next); arrayList.add(listNode.val); &#125; return arrayList; &#125;&#125;]]></content>
